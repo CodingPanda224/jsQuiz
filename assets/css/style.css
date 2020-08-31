@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+    /* Styling of Header - High scores and Timer */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+header a{
+  text-decoration: none;
+}
+
+
+    /* Styling the container with the quiz inside */
+.container {
+  position: relative;
+  margin: 20px 50px;
+  text-align: center;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container h4 {
+  margin-top: 10px;
+}
+
+.container #start-btn {
+ margin-top: 20px;
+ background-color: indigo;
+ color: white;
+ 
+}
+
+.btn:hover {
+  cursor: pointer;
+  filter: opacity(70%);
+  transform: translateY(-0.1rem);
+  transition: transform 150 ms;
+}
+
+
+.container .choice-btn{
+  margin-top: 10px;
+  background-color: indigo;
+  color: white;
+}
+.choice-btn:hover {
+  cursor: pointer;
+  filter: opacity(70%);
+  transform: translateY(-0.1rem);
+  transition: transform 150 ms;
+}
+.container ul li {
+  list-style: none;
+  text-align: left;
+
+}
+
+.hide {
+  display: none;
+}
+
